@@ -14,6 +14,7 @@ body {
     padding-right: 15%;
 }
 
+
 .header {
     margin: auto;
     display: flex;
@@ -59,18 +60,11 @@ body {
     
 }
 
-.hero-txt .hero-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    margin-top: .5em;
-    height: 3em;
-    width: 9em;
-    border-radius: 1em;
-}
-
 .hero-img img {
     display: block;
     margin: auto;
+    width: 90%;
+    max-width: 30em;
 }
 
 
@@ -178,6 +172,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 footer {
     display: flex;
