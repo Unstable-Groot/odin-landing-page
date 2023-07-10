@@ -65,6 +65,8 @@ body {
     margin: auto;
     width: 90%;
     max-width: 30em;
+    image-rendering: pixelated;
+
 }
 
 
@@ -94,6 +96,7 @@ body {
     width: 95%;
     border: .2em solid #3882f6;
     border-radius: 1em;
+    image-rendering: pixelated;
 }
 
 .boxes p {
