@@ -1,10 +1,11 @@
 * {
-    /*border: 1px solid red;*/
+
 }
 
 body {
     font-family: roboto, sans-serif;
     margin: 0;
+    
 }
 
 .blue-bg {
@@ -33,6 +34,7 @@ body {
     flex: 1;
     color: #f9faf8;
 }
+
 
 .hero {
     display: flex;
@@ -71,3 +73,38 @@ body {
     margin: auto;
 }
 
+
+.random-info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-bottom: 75px;
+}
+
+.boxes > * {
+    width: 10em;
+    display: block;
+}
+
+.boxes img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 95%;
+    border: .2em solid #3882f6;
+    border-radius: 1em;
+}
+
+.boxes p {
+    display: block;
+    text-align: center;
+    color: #5c5c5c;
+    font-size: 14px;
+}
