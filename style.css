@@ -1,29 +1,73 @@
 * {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
     font-family: roboto, sans-serif;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 0;
+}
+
+.blue-bg {
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
     margin: auto;
     display: flex;
-    background-color: lightblue;
     justify-content: space-evenly;
     align-items: center;
     gap: 8px;
+    height: 5em;
 }
 
 .header div {
     color: red;
     font-size: 18px;
-
+    color: #e5e7eb;
 }
 
 .header .logo-text {
     font-size: 24px;
     flex: 1;
+    color: #f9faf8;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    height: 20em;
+}
+
+.hero div {
+    flex: 1;
+}
+
+.hero-txt .hero-main {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.hero-txt .hero-body {
+    font-size: 18px;
+    
+}
+
+.hero-txt .hero-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-top: .5em;
+    height: 3em;
+    width: 9em;
+    border-radius: 1em;
+}
+
+.hero-img img {
+    display: block;
+    margin: auto;
+}
+
